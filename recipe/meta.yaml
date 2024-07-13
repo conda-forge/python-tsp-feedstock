@@ -1,5 +1,5 @@
 {% set name = "python-tsp" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python_tsp-{{ version }}.tar.gz
-  sha256: b41b8f9fb87d4b33a1b22bc946f3a951f156a4d99e2be1936f771e7e0abc62c7
+  sha256: edf642d783e266db4b989ad1a9852c0e4df05400e19857653ba4c0d2361acd4b
 
 build:
   noarch: python
